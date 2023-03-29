@@ -1,0 +1,668 @@
+Dune 2: The Golden Path manuals
+
+Originally available only on forum: http://krizikcraft.no-ip.info/dune2/index.php?board=7.0
+
+Statistics may not be updated. Some changes were published only on blog: http://drackbolt.blogspot.com/
+
+---------- Combat ----------
+
+Combat mechanics have been reworked from the original game to create more strategy.  Here are various notes and differences from the original game, or other topics for which I feel the average player would like explanation.
+
+In real combat, moving around on the front line is a very dangerous thing.  When two lines of enemies clash, each side will have two basic options:  Stand and fight, or retreat.  No sane soldier will move straight ahead into the line of fire, nor would they have high chances of survival.  For this reason, any unit given a Move order in Dune 2: TGP will take considerable damage if they are attacked, and will lose the ability to dodge fire.  Take this into account before entering a large battle;  Make sure to have an established front line (and never try to maneuver your troops under fire), units in redoubt/reserve, and skirmishers for flanking operations.  Also, set intelligent Retreat Thresholds for each unit and place the Retreat Flag behind your reserves.  If you have a Repair Facility, these units will then be repaired, and can be sent back into battle.  Formations are the key to successful combat in Dune 2: TGP.  Even with only a few units, following these tips can help you defeat a much more powerful army.
+
+Do not ever expect "massing" to work.  Army groups need to have mixed capabilities, and a homogenous group of one type of unit can be easily and quickly countered by less expensive defenses.
+
+Units are no longer interested in making suicide attacks. A unit told to Attack will simply attack the closest enemy unit in its path. This keeps the age-old strategy of cannon-fodder alive and well, and it also helps limit the phenomena of firing "through" friendly units with direct-fire weaponry, which I've always hated (a la Warcraft III and 30 Riflemen in a cluttered group shooting the same target).  If a suicidal movement is really desired, units can be given orders to Move straight into enemy fire, where they will suffer double the normal damage.
+
+Ideally, you should place your retreat flag a fair distance behind your front lines, set your unit retreat threshold high, and allow units to escape from the front lines automatically to be repaired, and later rejoin the battle.  Vehicles are repaired by a Repair Facility, while Foot units gradually heal over time (much faster with the Stillsuits Upgrade).
+
+« Last Edit: December 11, 2009, 10:33:51 pm by Drackbolt »
+
+---------- Controls and Hotkeys  ----------
+
+All hotkeys in Dune 2: TGP are intended and grouped to be used with the left hand on the keyboard and the right hand for the mouse.  The only exceptions are certain functions that logically require more thought to execute (such as L for Launch from a Death Hand, and Ctrl-D for self-destruction).
+
+Enter: Start Team-Chat line
+Y or Shift-Enter: Start All-Chat line
+Left Click: Select units/buildings or place order
+Right Click: De-select unit/building or go back one menu in depth, or Auto-Order (if that option is selected)
+Double-Click (on Unit):  Select all units of that type within a set distance
+Middle Click: Hold down to go scroll map
+Mousewheel: Scroll to change Zoom level (with Outpost constructed)
+Left Shift: Hold down to scroll map
+Left Alt: Hold down to go into Zoom mode
+Control + Number: Create a control-group (with units selected)
+Number: Access a control-group (if extant); Tap again to center on group
+Arrow keys: Also used to scroll map
+
+A (or Mousewheel down): Attack
+C: Protect
+D: Deploy
+E: Retreat
+F: Airlift
+G: Guard
+H: Harvest
+L: Launch
+N: Return
+S: Stop
+T: Patrol
+V (or Mousewheel up): Move
+Z: Scatter formation
+Control + D: Self-Destruct
+R: Repair (Buildings)
+Mousewheel up/down: Scrolls through production menus (Buildings)
+
+W: Select idle harvester
+Tab:  Show Unit Health Halo and Spice Usage statistics
+Escape: Cancel total build queue or stop production of building (when building is selected)
+Control + Left Click: Cancel individual unit queue (if clicked upon) or individual unit selection
+F1: Construction Yard
+F2: Barracks
+F3: WOR
+F4: Light Vehicle Factory
+F5: Heavy Vehicle Factory
+F6: Hi-Tech Factory
+F7: Starport
+F8: House of Ix
+F9: Trading Post
+F10: Palace
+Control + X:  Exit game
+
+« Last Edit: September 06, 2015, 11:00:03 am by Drackbolt » 
+
+---------- Orders ----------
+
+The different orders that can be given to units can greatly affect their behavior.  Here are all the available orders and their consequences in Dune 2: TGP.
+Note that in Dune: TGP, units cannot be given orders to "follow to the death" against enemy units.  All orders are issued against locations on the map, not units.
+ 
+Stop:  Unit will cease all other operations and will remain in place.  It will defend itself against units within weapon range but will not move otherwise.  This is the only way to stop Harvesters from collecting Spice automatically.
+
+Move:   Unit will proceed straight to their destination without stopping, if at all possible.  Units will take enormous damage if they are attacked while on Move orders, due to its suicidal nature.  Upon reaching its destination, Harvesters will revert to Harvest orders, and all other units will revert to Protect orders.  Move orders give a 10% speed bonus.
+
+Attack:  Unit will proceed toward a physical location and will engage any enemy units within range.  At its destination it will default to Guard orders.
+
+Guard:  After receiving this order, a unit will seek out and attack any enemy that approaches within a large set distance, and return to the original location afterwards.  Use defensively to stop enemies from entering bases, flanking lines, or passing zones of control; use on offense to establish an LZ, raze a base or cut a measured tract of land from enemy hands.
+
+Protect:  Works like Guard orders, except the unit will only attack enemies who are actively attacking, and the scanning radius is larger.  This is best for protection of friendly buildings and units, as multiple units will be "aggro'd" to defend local assets, and enemy scout units will be ignored.  The ideal order for garrison units.
+
+Retreat:  Unit will immediately turn and move toward the global Retreat Flag, and will default to Stop orders.  Unit will not take extra damage as with Move orders, but they cannot be selected again until they reach their destination.  Units on Retreat gain a 10% speed bonus.
+
+Harvest:  Harvesters given this order will scan a large surrounding area for Spice fields, and will then move toward them and begin collecting Spice.  When their stores are full they will default to Return orders.
+
+Return:  Harvesters given this order by the player will immediately return to drop their Spice load at the nearest open Refinery; afterwards they will default to Harvest orders from the Refinery's location.  If the Harvester fills its stores while on Harvest Orders, it will automatically Return to a Refinery, and then move back to the Spice field's location to resume Harvesting.
+
+Deploy:  MCVs and MTPs can Deploy to create buildings at their current location.  This will destroy the unit and immediately begin production of the building, regardless of available credits or Construction Yards.  MTPs can Deploy on Rock or Sand, while MCVs can only Deploy on Rock.
+
+Airlift:  Vehicles of all kinds (except for Death Hands) can call for an Airlift.  They will not move, but will remain in queue for a Carryall to become available and deliver them to the chosen destination, where they will default to Stop orders.
+
+Launch:  Death Hands given this order will fire their tactical warheads, destroying the unit in the process.  Only a single Death Hand can be selected for this order to be given.
+
+« Last Edit: December 11, 2009, 09:38:12 pm by Drackbolt » 
+
+---------- Buildings ----------
+
+Buildings in Dune 2: TGP can only be repaired when they are not under attack.
+
+Power values in negative show buildings that require power.  Positive values generate power.
+Defended structures are manned by combat troops and do not suffer double-damage from Foot Soldier attacks.
+
+ 
+Construction Yard
+
+Class: Structure    	Strength: 400    	Defended: Yes    	Power: 0    	Cell Size: 4    	Sight: 5   
+Weapon Range: 5    	Accuracy: 37.5%    	Damage: 20    	ROF: 1.0    	Cost: N/A    	Build Time: 5s   
+    The Conyard is your most valuable structure, since it is required to build all others.  Each Conyard can construct one other building at a given rate.  The only way to create new Conyards is to deploy them from a Mobile Construction Vehicle.  They are heavily defended and can be difficult to destroy, but should never be left unguarded.
+
+ 
+Concrete Slab
+
+Class: Foundation    	Cost: 5    	Build Time: 2s    	Cell Size: 1   
+    Concrete foundations are necessary to stop a great deal of the erosion that occurs from the weather on the surface of Dune.  Whether it is placed or not depends much more on available time than credits, since it is inexpensive but can only be laid down at a certain rate.  It is a huge financial advantage to place concrete before placing a structure on bare rock, but it may not always be feasible in times of war.
+
+ 
+Guard Turret
+
+Class: Structure    	Strength: 180    	Defended: Yes    	Power: -5    	Cell Size: 1    	Sight: 4   
+Weapon Range: 6    	Accuracy: 100%    	Damage: 5    	ROF: 2.0    	Cost: 200    	Build Time: 8.3s   
+    The Guard Turret fires guided fragmentation micro-missiles designed to accurately blanket an area with shrapnel.  It is very difficult for foot soldiers to defeat, but largely useless against other types of attackers.
+
+     
+Fortified Wall
+
+Class: Structure    	Strength: 400    	Defended: No    	Power: 0    	Cell Size: 1    	Sight: 1   
+				Cost: 50    	Build Time: 4.1s   
+    The Wall can absorb a great deal of punishment and can also be repaired as long as there is power.  It has power conduits built-in to allow other structures to be produced nearby.  Very useful for halting enemy flanking movement and for stopping ground-level projectiles.
+ 
+
+Windtrap
+
+Class: Structure    	Strength: 200    	Defended: No    	Power: +100    	Cell Size: 4    	Sight: 2   
+				Cost:300    	Build Time: 8.3s   
+    The Windtrap provides power to all structures on Dune's surface.  The amount of power required by a structure increases geometrically with the distance to the nearest Windtrap, so they should be evenly dispersed.  A savvy opponent can exploit this need by destroying a sole Windtrap in a cluster of buildings to raise the chances of causing a power shortage.  It is a fragile and undefended building.
+ 
+
+Spice Refinery
+
+Class: Structure    	Strength: 450    	Defended: No    	Power: -30    	Cell Size: 6    	Sight: 2   
+				Cost: 800    	Build Time: 13.3s   
+    The Refinery is where conversion of raw spice into Credits occurs.  Harvesters gather the spice and return it to the nearest open Refinery for processing.  It has storage holds for unused Credits and is required to build many other structures.  It can produce Harvesters at no cost, but can only support one at a time.
+ 
+
+Spice Silo
+
+Class: Structure    	Strength: 500    	Defended: No    	Power: -5    	Cell Size: 4    	Sight: 2   
+				Cost: 150    	Build Time: 8.3s   
+    A very durable reinforced concrete building designed only to safely contain stores of spice.  Necessary to save up for large Starport orders, Mercenary groups, or in general to provide some headroom between spice harvesting and military production.
+ 
+
+Outpost
+
+Class: Structure    	Strength: 500    	Defended: Yes    	Power: -30    	Cell Size: 4    	Sight: 24   
+Weapon Range: 3    	Accuracy: 100%    	Damage: 2    	ROF: 2.0    	Cost: 400    	Build Time: 13.3s   
+    The Outpost provides radar, which reveals the location of every friendly and enemy unit on the map.  It is well-defended against foot soldiers, requires a fair amount of power, and has a large sight range.  It is also the place where certain default army settings can be changed.
+ 
+
+Trading Post
+
+Class: Structure    	Strength: 150    	Defended: Yes    	Power: 0    	Cell Size: 1    	Sight: 5   
+				Cost: N/A    	Build Time: 8.3s   
+    The Trading Post is deployed from an MTP and is invisible from a distance.  This stealth and high sight range makes them excellent for countering sandstorms and tracking enemy movement.  The further away from civilization, the more mercenary units can be found in the desert, and this is also where they are hired.  Mercenaries operate in groups and do not usually fight to the death, but they strike from unexpected angles and can deliver a hammer blow before retreating, making their high cost worthwhile if used properly.
+ 
+
+Light Vehicle Factory
+
+Class: Structure    	Strength: 350    	Defended: No    	Power: -30    	Cell Size: 4    	Sight: 2   
+				Cost: 400    	Build Time: 16.7s   
+    Produces all light vehicles such as trikes and MTPs.  More necessary than simply a stepping stone to the HVF, since it provides important scouting, flanking, anti-infantry and anti-air capabilities in the units it produces.
+ 
+
+Barracks
+
+Class: Structure    	Strength: 300    	Defended: Yes    	Power: -10    	Cell Size: 4    	Sight: 2   
+Weapon Range: 3    	Accuracy: 100%    	Damage: 2    	ROF: 2.0    	Cost: 300    	Build Time: 12.5s   
+    The Barracks produces all light Infantry units.  It is well-defended against foot soldiers, but not otherwise resilient.  It requires very little power, and the ability to mass-produce Infantry should never be overlooked.
+ 
+
+WOR
+
+Class: Structure    	Strength: 450    	Defended: Yes    	Power: -20    	Cell Size: 4    	Sight: 2   
+Weapon Range: 4    	Accuracy: 100%    	Damage: 3    	ROF: 2.0    	Cost: 400    	Build Time: 16.7s   
+    Produces all heavy foot soldier units including the Trooper.  Well-defended and sturdy, like the power-armored foot soldiers it trains.  Also necessary to get the full benefit of certain alliances.
+ 
+
+Gun Turret
+
+Class: Structure    	Strength: 300    	Defended: No    	Power: -10    	Cell Size: 1    	Sight: 4   
+Weapon Range: 9    	Accuracy: 12.5%    	Damage: 50    	ROF: 0.44    	Cost: 200    	Build Time: 8.3s   
+    Intended to repel large armored vehicles, the Gun Turret is most useful against tanks with medium-ranged weapons.  It performs very well in this function but is easily defeated by foot soldiers and units with longer ranges.
+ 
+
+Heavy Vehicle Factory
+
+Class: Structure    	Strength: 200    	Defended: No    	Power: -35    	Cell Size: 6    	Sight: 2   
+				Cost: 600    	Build Time: 25s   
+    Expensive, power-hungry, large and frail, the HVF is still a critical building to keep operational.  It is needed to produce everything from Harvesters to MCVs to Combat Tanks, and is where the most powerful faction-specific units are created.
+     
+
+High Tech Factory
+
+Class: Structure    	Strength: 400    	Defended: No    	Power: -35    	Cell Size: 6    	Sight: 8   
+				Cost: 500    	Build Time: 20.8s   
+    Also expensive, but slightly less vulnerable, is the HTF.  It is the only place that can produce and house Flying units and contributes enormously to economic and military automation.  If it is destroyed, any flyers caught without a landing pad may crash and burn, so it should be treated as highly valuable to all sides.
+ 
+
+Repair Facility
+
+Class: Structure    	Strength: 200    	Defended: No    	Power: -20    	Cell Size: 6    	Sight: 2   
+				Cost: 700    	Build Time: 11.7s   
+    The Repair Facility allows vehicles outside of combat to take repairs for a minimal cost and at high speed.  More facilities allow more units to be simultaneously repaired.  Fragile and unprotected.  Can be disabled manually when needed to save credits.
+ 
+
+Rocket Turret
+
+Class: Structure    	Strength: 150    	Defended: No    	Power: -25    	Cell Size: 1    	Sight: 6   
+Weapon Range: 12    	Accuracy: 50%    	Damage: 25    	ROF: 0.66    	Cost: 300    	Build Time: 12.5s   
+    The Rocket Turret is the only building with AA capabilities, and is also the most versatile turret available.  Its main drawbacks are high power consumption and low rate of fire.  Very powerful and long-ranged, but not as effective as the other turrets in their specific roles.
+ 
+
+House of IX
+
+Class: Structure    	Strength: 400    	Defended: No    	Power: -40    	Cell Size: 4    	Sight: 2   
+				Cost: 500    	Build Time: 20.8s   
+    The House of IX is allied with every faction by default, and provides scientific research and advancement.  Depending on the situation, any single upgrade purchased here can make one army more powerful than another.  Upgrades are costly, but apply globally and instantly.  Draws high power and is undefended.  Keeping one powered will give all unit weaponry a slight (5%) damage bonus.
+ 
+
+Starport
+
+Class: Structure    	Strength: 500    	Defended: No    	Power: -50    	Cell Size: 9    	Sight: 3   
+				Cost: 500    	Build Time: 20.8s   
+    The final building made available in the technical hierarchy, the Starport draws very high power and is very expensive.  However, with the right funds, the Starport can be used to purchase entire groups of units at a premium price and have them delivered in short order.  Prices will fluctuate often, and an alliance with the Spacing Guild will drastically reduce the margins.  It is always cheaper to produce your own units, but when used carefully, this building can literally create an army in moments.
+
+     
+House Palace
+
+Class: Structure    	Strength: 1000    	Defended: Yes    	Power: -80    	Cell Size: 9    	Sight: 2   
+Weapon Range: 7    	Accuracy: 100%    	Damage: 6    	ROF: 2.0    	Cost: 1000    	Build Time: 33.3s   
+    The Palace is used to host envoys and create alliances.  It requires a great deal of power and credits, but repairs itself and is heavily fortified and defended.  Losing the Palace will prevent you from benefiting from the Alliance bonuses, but any existing Alliance will be remade if another Palace is built.  Only one Alliance can ever be active at a time.
+	
+« Last Edit: September 26, 2015, 07:38:49 pm by Drackbolt »
+
+---------- Units ----------
+
+Classes of Units:
+Foot:  Foot units move slowly in general, but can join up to three in a cell and can move through Crags.  They also heal over time, and do not attract worms very often.  Their weapons are very weak and short-ranged, but very accurate.  They cannot be transported by air, but they do not appear on Radar.  Most Foot units do extra damage to "undefended" buildings by using grenades, and gain a range bonus and invisibility while in Crags.
+Light:  Light units are best suited to scouting roles.  They typically have great speed, weak armor, high sight range, and poor but specialized weaponry.  They usually travel on wheels, which gives them great speed over the sand, but slows them down on bare rock.  Their scouting abilities are essential during Sandstorms.
+Heavy:  Usually tracked and heavily armored, Heavy units are slow and powerful.  Weaponry is destructive and long-ranged, but completely unsuited to attacking Foot units, or even Light units at long range.
+Flyer:  Flying units may only be attacked by anti-air weaponry and move very quickly over the field.  They are brittle and very expensive, but very useful.  They perform either transport or harassing functions.
+Building:  Buildings cannot move, and only some can defend themselves, but they provide a wide range of options and upgrades to improve and construct your army.  Buildings can be repaired at low cost when not in combat.  Most buildings are classified as "undefended", which makes them vulnerable to Foot units.
+
+Speed is in orthogonal Cells-per-second, without upgrades, terrain modifiers, or faction bonuses.
+Turn rate is in 45-degree-arcs per second.
+Size is in percentage of a total Cell.
+Accuracy is modified by the Size of the target.  Negative Accuracy means the shot may end up in a different Cell entirely.
+ROF is in shots-per-second.
+
+ 
+Infantry
+
+Class: Foot    	Strength: 15    	Speed: 0.34    	Turn rate: 30    	Size: 25%    	Sight: 1   
+Weapon Range: 2    	Accuracy: 87.5%    	Damage: 3 (6)    	ROF: 0.67    	Cost: 30    	Build Time: 5s   
+Infantry behave as you'd expect real foot soldiers.  They're the cheapest unit available, move slowly, can travel in large groups, and are vulnerable to accurate fire.  They can be very useful in forcing an enemy siege to stagnate due to their fast production rate, and they are also decent at swarming larger units, especially buildings.  Keep groups of Infantry well clear of Rocket Launchers and other area-effect weaponry.
+
+
+Troopers
+
+Class: Foot    	Strength: 50    	Speed: 0.38    	Turn rate: 15    	Size: 25%    	Sight: 1   
+Weapon Range: 3    	Accuracy: 87.5%    	Damage: 5 (10)    	ROF: 0.75    	Cost: 100    	Build Time: 8.3s   
+Troopers are super-infantry in all respects, but they are still foot soldiers, and vulnerable to the same situations.  They make better showings against most units, especially more expensive ones who can be easily outnumbered, and are generally worth the additional cost.  Troopers are good at countering Heavy units and specialized Alliance Foot units.  However, their high cost can quickly lead to huge losses of spice if they are caught vulnerable.
+
+
+Saboteurs
+
+Class: Foot    	Strength: 15    	Speed: 0.34    	Turn rate: 30    	Size: 25%    	Sight: 4   
+Weapon Range: 2    	Accuracy: 87.5%    	Damage: 3 (50)   	ROF: 0.67    	Cost: 200    	Build Time: 8.3s   
+Saboteurs come from an Alliance with the Spacing Guild.  They resemble regular Infantry, but are camouflaged and cannot be engaged at a distance unless already in combat.  They do extremely high bonus damage to Buildings and have good sight range for a foot soldier, making them ideal for infiltrating enemy bases and laying in wait.
+
+
+Warriors
+
+Class: Foot    	Strength: 17.5    	Speed: 0.52    	Turn rate: 30    	Size: 25%    	Sight: 2   
+Weapon Range: 2    	Accuracy: 87.5%    	Damage: 3 (18)    	ROF: 0.67    	Cost: 50    	Build Time: 8.3s   
+Fremen Warriors have relatively low technology and have evolved for millenia in the harshest environment known.  Thus, they are not overly effective against heavier units or buildings, but they are the deadliest melee fighters in the universe, even against Sardaukar.  Their high speed allows them to close distance quickly, but they should avoid other unit types or travel with support.  Use them to destroy groups of enemy Infantry and Troopers at will.
+
+
+Sardaukar
+
+Class: Foot    	Strength: 75    	Speed: 0.45    	Turn rate: 15    	Size: 25%    	Sight: 1   
+Weapon Range: 4    	Accuracy: 87.5%    	Damage: 6 (12)    	ROF: 0.75    	Cost: 150    	Build Time: 8.3s   
+Sardaukar form the personal bodyguard and army of House Corrino, house of the current Emperor.  They are the ultimate foot soldier, able to absorb and deal great damage in numbers.  Their weaponry has a decent range and fires over obstacles, making them very powerful and in some cases invincible while in Crags.  They are not as fast as Warriors, but are a better general counter against most units.  With their range and abilities they can handle almost any group smaller than their own; however, the great cost of producing large groups of Sardaukar means they are tactically constrained and sometimes too valuable to risk on the front lines.
+
+
+Trike
+
+Class: Light (Wheeled)    	Strength: 60    	Speed: 3.0    	Turn rate: 7.5    	Size: 37.5%    	Sight: 4   
+Weapon Range: 3    	Accuracy: 87.5%    	Damage: 3    	ROF: 1.32    	Cost: 150    	Build Time: 5s   
+The basic scout unit for the Atreides, the Trike is slower only than the Raider on the sand.  Weaponry is well-suited for attacking foot soldiers, but because of their short range and large size (compared to foot units), they cannot often bring the numbers needed to handle larger units.
+ 
+
+Flak Trike
+
+Class: Light (Wheeled)    	Strength: 60    	Speed: 2.6    	Turn rate: 7.5    	Size: 37.5%    	Sight: 4   
+Weapon Range: 9    	Accuracy: -100%    	Damage: 6    	ROF: 3.0    	Cost: 250    	Build Time: 6.7s   
+This Trike variant is specialized to offer a minor anti-air deterrent, and cannot attack ground units.  It is slower than a Trike but still very fast on open sand, and can be effective in numbers against enemy flyers.  Excellent range and rate of fire help compensate for their high cost and vulnerability.  The only mobile unit capable of attacking airborne units.  Its armor is thickest on top, so the unit takes extra damage from ground attacks.
+ 
+
+Quad
+
+Class: Light (Wheeled)    	Strength: 80    	Speed: 2.4    	Turn rate: 6.7    	Size: 44.25%    	Sight: 4   
+Weapon Range: 3    	Accuracy: 87.5%    	Damage: 5    	ROF: 1.32    	Cost: 200    	Build Time: 6.7s   
+Used by all houses and the standard scout unit of the Harkonnen, the Quad is a more powerful and slower version of the Trike.  It is better able to handle Troopers and can offer slightly more resistance to larger units.  Effective at rushing enemy Rocket Launchers, Death Hands, and other unprotected units at short ranges.
+ 
+
+Raider
+
+Class: Light (Wheeled)    	Strength: 45    	Speed: 4.5    	Turn rate: 10.0    	Size: 31.25%    	Sight: 3   
+Weapon Range: 3    	Accuracy: 87.5%    	Damage: 3    	ROF: 1.32    	Cost: 150    	Build Time: 5s   
+The Raider is essentially a Trike reverse-engineered as a Bi-wheel, with some armor removed to increase its speed further.  It is the standard scout unit of the Ordos and not used by other houses.  Due to its fragility it should only be used offensively against defenseless units.
+ 
+
+Mobile Trading Post
+
+Class: Light (Wheeled)    	Strength: 75    	Speed: 2.0    	Turn rate: 6.0    	Size: 44.25%    	Sight: 8   
+				Cost: 150    	Build Time: 8.3s   
+The MTP has no weaponry and behaves like most other Light units; however, it can be deployed on open sand anywhere on the map to create a Trading Post, where the enemy can be spied upon and Mercenary groups can be purchased.  The distance from the nearest friendly Construction Yard dictates the availability of these groups, with trading posts furthest from civilization attracting the best mercenaries.  The MTP cannot be airlifted, but it has very high sight range.
+ 
+
+Harvester
+
+Class: Heavy (Tracked)    	Strength: 150    	Speed: 0.8    	Turn rate: 4.0    	Size: 62.5%    	Sight: 2   
+				Cost: 0    	Build Time: 25s   
+Harvesters are necessary for collecting and processing the Spice.  They operate out of Refineries, and only one Harvester may be operated for each Refinery.  They have no weapons, but can take considerable damage and can repair themselves.  They are free but take considerable time to construct.
+ 
+
+Armed Harvester
+
+Class: Heavy (Tracked)    	Strength: 150    	Speed: 0.8    	Turn rate: 4.0    	Size: 62.5%    	Sight: 2   
+Weapon Range: 4    	Accuracy: 50%    	Damage: 15    	ROF: 0.75    	Cost: 0    	Build Time: 25s   
+Armed Harvesters function identically to Harvesters, with one difference: a small-bore auto-cannon mounted in a turret atop the chassis.  This weapon is moderately effective against most types of units, but is intended only for defensive purposes and does not create a combat unit.
+ 
+
+Mobile Construction Vehicle
+
+Class: Heavy (Wheeled)    	Strength: 150    	Speed: 0.8    	Turn rate: 4.0    	Size: 75%    	Sight: 8   
+				Cost: 900    	Build Time: 15s   
+The MCV is slow, weaponless and incredibly expensive, but it can deploy to set up a new Construction Yard, which is the most important single unit an army can have.  More Construction Yards translate to faster production and greater redundancy.  It cannot be airlifted.
+ 
+
+Combat Tank
+
+Class: Heavy (Tracked)    	Strength: 200    	Speed: 0.97    	Turn rate: 4.0    	Size: 50%    	Sight: 3   
+Weapon Range: 4    	Accuracy: 12.5%    	Damage: 35    	ROF: 0.3    	Cost: 300    	Build Time: 10s   
+For the price, the Combat Tank is the most versatile and effective offensive unit available.  It is quick, durable, and can cause considerable damage to large targets.  They have problems with foot soldiers, but can otherwise handle their own and move with decent speed over rock.
+ 
+
+Siege Tank
+
+Class: Heavy (Tracked)    	Strength: 300    	Speed: 0.74    	Turn rate: 4.0    	Size: 56.25%    	Sight: 3   
+Weapon Range: 5    	Accuracy: 12.5%    	Damage: 40    	ROF: 0.6    	Cost: 600    	Build Time: 16.7s   
+When concentration of firepower is needed, the Siege tank is the standard unit of the line.  Essentially double the combat potential of the Tank, they should be used when targeted strikes or defensive maneuvers are more important than tactical diversity or greater numbers.  As with any tank they should be kept away from foot soldiers, but they fare better than most.
+ 
+
+Rocket Launcher
+
+Class: Heavy (Tracked)    	Strength: 100    	Speed: 0.8    	Turn rate: 4.0    	Size: 50%    	Sight: 3   
+Weapon Range: 4-10    	Accuracy: -50%    	Damage: 25 (75)    	ROF: 0.5    	Cost: 450    	Build Time: 12.5s   
+The standard artillery unit of all houses, the Rocket Launcher is defenseless at short ranges, but delivers tremendous power at extreme range, with a small area of effect that can strike multiple units, and bonus damage against buildings.  Speed is average, hit points are low, and accuracy is very poor, so they are best used against large groups of slow units or buildings.
+ 
+
+Sonic Tank
+
+Class: Heavy (Tracked)    	Strength: 110    	Speed: 1.2    	Turn rate: 4.0    	Size: 50%    	Sight: 4   
+Weapon Range: 7    	Accuracy: 37.5%    	Damage: 15    	ROF: 0.375    	Cost: 600    	Build Time: 16.7s   
+Power: -25 (when firing)
+The Atreides Sonic Tank is the most destructive unit available against larger units and buildings.  It fires a wave that passes through all units and obstacles, striking harder against units with more mass.  It can cause enough damage in a short amount of time to offset its high cost.  The vehicle itself is not durable however, and it must be used carefully; Sonic tanks cannot operate without a reliable source of power and require even more when firing the main weapon.
+ 
+
+Devastator
+
+Class: Heavy (Tracked)    	Strength: 400    	Speed: 0.64    	Turn rate: 3.3    	Size: 56.25%    	Sight: 4   
+Weapon Range: 5    	Accuracy: 12.5%    	Damage: 150    	ROF: 0.2    	Cost: 800    	Build Time: 16.7s   
+The Devastator is the premier Harkonnen tank destroyer.  It can easily defeat any other unsupported battle tank on the field.  The Devastator can self-repair, and can also be self-destructed to create a large explosion.  The major disadvantages compared to other tanks are its lack of a turret, high cost, and incredibly slow firing, movement and turning speed.  This makes it even more vulnerable to enemy foot soldiers than most heavy vehicles.
+
+
+Deviator
+
+Class: Heavy (Tracked)    	Strength: 120    	Speed: 0.8    	Turn rate: 4.0    	Size: 50%    	Sight: 4   
+Weapon Range: 3-8    	Accuracy: -62.5%    	Damage: 0.01    	ROF: 0.25    	Cost: 750    	Build Time: 12.5s   
+The Ordos refitted this Rocket Launcher with a warhead launching a disruptive cocktail of gases.  It does no immediate damage, but causes a wide range of random effects on units, and confuses building crew temporarily.  With support to deliver the killing blow, the Deviator can easily alter the tide of battle.
+ 
+
+Death Hand
+
+Class: Heavy (Wheeled)    	Strength: 150    	Speed: 0.54    	Turn rate: 4.0    	Size: 75%    	Sight: 2   
+Weapon Range: 20-Unlimited    		Damage: 350    		Cost: 500    	Build Time: 20.8s   
+House Corrino provides the Death Hand Tactical Nuclear Missile Carrier in lieu of other bonuses, which in itself is enough to change the face of war.  This unit may not be airlifted and is very slow.  The missile can only be fired once (and only one Death Hand may fire at a time), which will destroy the carrier instantly.  The missile cannot target locations within a long distance from the carrier, and its accuracy decreases greatly with distance.  The weapon does massive damage in a huge area of effect wherever it lands, but there is a chance that the missile will malfunction and detonate mid-launch.  A player allied with House Corrino should protect his Death Hands and keep them hidden and isolated, while enemy players should always keep small and inexpensive scout groups available to ensure this unit has no chance to recoup the instant expense of firing its payload.
+ 
+
+Carryall
+
+Class: Flyer    	Strength: 75    	Speed: 12.0    	Turn rate: 60    	Size: 75%    	Sight: 0   
+				Cost: 800    	Build Time: 13.3s   
+The Carryall is a transport capable of automating and accelerating all logistic and tactical maneuvers.  It is delicate and very expensive, but provides a number of advantages for a player.  It will prefer to service Harvesters but can transport any vehicle in need (except the volatile Death Hand and certain other delicate units) at high speed, depending on the weight of the unit.
+ 
+
+Ornithopter
+
+Class: Flyer    	Strength: 60    	Speed: 15.0    	Turn rate: 60    	Size: 50.00%    	Sight: 0   
+Weapon Range: 5    	Accuracy: 50%    	Damage: 35    	ROF: 0.6    	Cost: 600    	Build Time: 10s   
+The Ornithopter is a harasser, firing a powerful weapon in wide strafing runs.  It can be set to support all units, buildings, or harvesters, and will launch to attack the first unit to make offensive contact.  It will begin drawing fire soon after its first appearance however, so a careful player should be prepared for anti-air measures to be quickly employed by an enemy.  Most effective when released to press a large-scale advantage.
+
+« Last Edit: June 16, 2013, 09:45:42 am by Drackbolt »
+
+---------- Terrain ----------
+
+Sand
+
+Traversable: Any    	Frequency: Common    	Cover: None   
+    The most common form of ground on Arrakis, sand can be crossed by any unit and provides no cover benefit. Wheeled units often move at their fastest over open sand.
+
+Dunes
+
+Traversable: Any    	Frequency: Uncommon    	Cover: 33%   
+    Dunes are found everywhere on the desert planet.  They slow down vehicle movement but have little effect on foot travel compared to open sand.  They are still dangerous because of Worm attacks but do provide a defensive bonus against incoming fire.
+
+Treacherous Dunes
+
+Traversable: None    	Frequency: Rare    	Cover: None   
+    Treacherous Dunes have sinkholes and valleys throughout and would be suicidal to enter for any land-based unit.  Otherwise they do not impede line of sight or weapons fire.
+
+Rock
+
+Traversable: Any    	Frequency: Uncommon    	Cover: None   
+    Rock is both a location to construct upon, and respite from the ubiquitous Worms.  Tracked vehicles often traverse rock most quickly.
+
+Slab
+
+Traversable: Any    	Frequency: Manmade    	Cover: None   
+    Slabs are placed on Rock as a foundation for erecting buildings.  Constructing on slabs will prevent a great deal of later repairs due to erosion from the harsh weather.  Most types of units move at full speed over slabs.
+
+Crag
+
+Traversable: Foot only    	Frequency: Rare    	Cover: 66%   
+    Crags are rare formations of mountainous rock.  They are too uneven for construction and impassible for any terrestrial vehicle.  It is the supreme domain of the foot unit, taking much time to cross but providing range and defensive bonuses, and concealing them outside of combat.  Crags occur in both Sand and Rock and if dense enough will stop ballistic projectiles.
+
+Spice
+
+Traversable: Any    	Frequency: Uncommon to Rare    	Cover: None   
+    This substance is the ultimate reason any of the Great Houses are on Arrakis.  It can only be collected by Harvesters and processed at Refineries.  It then becomes Credits, which are the currency used to purchase units, buildings and upgrades.  Otherwise, it behaves like the terrain it lays upon.
+	
+« Last Edit: September 06, 2015, 06:57:13 pm by Drackbolt »
+	
+---------- Houses & Factions ----------
+
+House Atreides
+Bonus research:  Auto-Concrete, Microwave Power
+Special Unit:  Sonic Tank
+Build Restrictions:  WOR (unless allowed through Alliance), Trooper, Raider, Devastator, Deviator, Power Upgrade
+ 
+House Harkonnen
+Bonus Research:  Trooper Squads, Siege Tank, Armed Harvesters
+Special Unit:  Devastator
+Build Restrictions:  Barracks (unless allowed through Alliance), Infantry, Trike, Raider, Tank, Sonic Tank, Deviator, Ornithopter, PSM Detection
+ 
+House Ordos
+Bonus Research:  MTP, PSM Detection
+Special Unit:  Deviator
+Build Restrictions:  Quad, Siege Tank, Sonic Tank, Devastator
+ 
+House Corrino
+Allow Sardaukar and Death Hands to be produced.
+
+The Fremen
+Allow Warriors to be produced and drastically reduce Worm attacks.
+ 
+The Spacing Guild
+Allow Saboteurs to be produced and improve Starport margins.
+ 
+Mercenaries
+Are hired from Trading Posts and will attack any non-Mercenary unit encountered.  Tier 2 upgrade required.
+
+« Last Edit: March 24, 2013, 11:16:20 pm by Drackbolt »
+
+---------- Tech Levels ----------
+
+Here are the options that are added for each Tech Level (which includes all those levels below it).  Note that because of multiplayer and other game changes, these will not match the original Tech Levels in Dune 2.
+
+1:
+Construction Yard
+Concrete Slab
+Windtrap
+Refinery
+Harvester
+
+2:
+Spice Silo
+Radar Outpost
+Infantry Barracks
+WOR Training Facility
+House of Ix
+Infantry
+Trooper
+(Ix) Building Auto-Repair
+(Ix) Detect Pre-Spice Mass
+
+3:
+Guard Turret
+Trading Post
+Light Vehicle Factory
+Trike
+Raider
+Quad
+MTP
+(Ix) Build Quads
+(Ix) Build MTPs
+Light Merc Group
+
+4:
+Reinforced Wall
+Heavy Vehicle Factory
+Tank
+MCV
+(Ix) Auto-Concrete
+(Ix) Raise Power output
+(Ix) Build Light Squads
+(Ix) Build Heavy Squads
+(Ix) Build MCVs
+
+5:
+Cannon Turret
+Hi-Tech Factory
+Repair Facility
+Rocket Launcher
+Carryall
+(Ix) Build Rocket Tanks
+(Ix) Stillsuit production
+Medium Merc Group
+
+6:
+Rocket Turret
+Starport
+Flak Trike
+Siege Tank
+(Ix) Build Rocket Turrets
+(Ix) Build Siege Tanks
+(Ix) Microwave Power
+(Starport) Trike
+(Starport) Quad
+(Starport) Flak Trike
+(Starport) MTP
+(Starport) Tank
+(Starport) MCV
+
+7:
+Devastator
+Deviator
+Sonic Tank
+Ornithopter
+(Ix) Build Ornithopters
+(Ix) Build Sonic Tanks
+(Ix) Build Devastators
+(Ix) Build Deviators
+(Starport) Rocket Launcher
+Heavy Merc Group
+
+8:
+House Palace
+Saboteur
+Fremen
+Sardaukar
+Death Hand
+(Starport) Siege Tank
+Ally House Corrino
+Ally the Fremen
+Ally the Spacing Guild
+All Tier 2 Upgrades
+
+« Last Edit: February 27, 2011, 05:13:05 pm by Drackbolt »
+
+---------- Frequently Asked Questions ----------
+
+Q: How can I find others to play?
+A: There is a Steam Group named after the game that is growing in numbers.  You can also leave a note here on the Matchups board.  Remember, you ARE the community, so if you'd like to see more players, help us find them!
+
+Q: Will loading single-player missions ever be possible?
+A: Not likely.  There are Dune 2 remakes that do a fine job of this, especially Dune 2: The Maker (http://d2tm.duneii.com/).  The focus of D2TGP is multiplayer.
+
+Q: Will you add more units/factions to the game?
+A: Not likely.  The focus of the game is still to feel as much like the original as possible, so no units were or will be introduced that disrupt the balance of what currently exists.  Three factions is more than enough for good balance, especially when adding in the three independent Alliance factions.
+
+Q: Can worms be attacked or killed?
+A: No.  When wormsign is active there is a good chance any unit moving over the sand will call a worm.  The worm will disappear after making an attempt to eat the offending unit.
+
+Q: Why do all my units only attack the closest enemy?
+A: Both to reduce possible micromanagement and to emphasize the realistic effect of the closer threat.
+
+Q: Why can't I attack a single enemy unit/building?
+A: Units in D2TGP will not accept suicidal orders, and this includes following a unit unto death or ignoring other enemies.
+
+Q: Why can't I place new buildings over any block of concrete I want?
+A: Instead of concrete dictating the distance for a building as in Dune 2, in D2TGP the distance is set to a certain low radius (which can be upgraded with Microwave Power).  This is made to slow down offensive base-creeping.
+
+Q: Can Infantry and Troopers capture buildings?
+A: Not in D2TGP.  Instead, most Foot units do extra damage against buildings that are not marked as "Defended".
+
+Q: Can tanks run over infantry?
+A: No.  This kind of micromanagement is frowned upon in D2TGP by design.  Infantry are in fact excellent counters to tanks and other heavy units.
+
+Q: This unit/that unit is too powerful!
+A: Try a different formation or a different combination of units against them.  No one unit can be massed without a massive vulnerability somehow.
+1800 credit matchup examples:
+3 Siege Tanks > 4 Rocket Launchers
+4 Rocket Launchers > 18 Troopers
+18 Troopers > 3 Siege Tanks
+1 Rocket Launcher + 2 Trikes + 2 Combat Tanks + 15 Infantry > Almost everything else
+
+Q: Where are the Mercenaries?
+A: They are hired at the Trading Post, which is deployed from an MTP (built at a Light Vehicle Factory after researching at the House of IX).
+
+« Last Edit: October 16, 2010, 11:40:09 am by Drackbolt »
+
+---------- Changes in version 1.1.25 ----------
+
+Changes since 1.1.24:
+
+    Atreides now get free MCV research instead of Microwave Power (this was simply too strong)
+    Warriors are now proper guerilla assassins.
+        Now fully stealthed.  As with Saboteurs, they can only be detected when moving too close to an enemy or when in combat
+        Base damage increased to 4 from 3 and bonus damage vs Foot units increased to 16 from 15
+    Sardaukar are cheaper and still strong in the open, but less useful against bases.  Troopers do 66% greater DPS to structures so we should see even mixes
+        Strength reduced to 60 from 75
+        No longer do any bonus damage vs Buildings
+        Cost reduced to 100
+    Saboteurs cost reduced to 150 from 200
+    Trikes are now 20% faster
+    Raiders repurposed to be the ultimate flanker vs artillery lines and harvesters.
+        Speed is now slower to match Trikes
+        Strength reduced to 40 from 45
+        Weapon type is now Small Missile with half the ROF
+        Weapon now does bonus damage to Heavy Vehicles
+    Quads and Flak Trikes are now 4% faster
+    Ornithopters should be very viable again.  Possibly overpowered.
+        Range is now 6 up from 5
+        Strength is now 70 up from 60
+        Now prioritize hostile enemies with Anti-Air abilities
+    Deviators buffed to give Ordos more late-game power.
+        ROF now matches Sonic Tanks
+        Range improved to 3-9 from 3-8
+    Rocket Launchers receive one small change that will dramatically change the game.
+        AOE reduced by half
+    Armed Harvesters now have a weapon similar to the new Guard Turret to better defend against light units
+    Guard Turrets changed dramatically.
+        Is now a rapid-fire bullet weapon doing extra damage to Foot units, instead of AOE
+        Range is now 5 from 6
+    Gun Turrets nerfed.
+        Rate Of Fire is now 50% slower
+    Rocket Turrets nerfed.
+        Rate Of Fire is now 50% slower
+    Fixed issues with Results web site (http:\\krizikcraft.no-ip.info) preventing results from being submitted properly.  Note that you still need to play until the "mission complete" or "failure" message has been received for this to happen.
+
